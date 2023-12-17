@@ -8,8 +8,8 @@ import { Ring } from "./Ring";
 
 
 export const Experience = () => {
-  const [name1, setName1] = useState("Suzy");
-  const [name2, setName2] = useState("Lizzie");
+  const [name1, setName1] = useState("Bonnie");
+  const [name2, setName2] = useState("Clyde");
 
   // Define the controls
   const values = useControls({ 
@@ -30,14 +30,14 @@ export const Experience = () => {
           text={name1}
           color="#b09040"
           position={[-0.5, 0.228, 0]}
-          rotation={[Math.PI / 2, 0.228, -Math.PI / 5]}
+          rotation={[Math.PI / 2, 0.228, -Math.PI -15]}
         />
         <Ring
           text={name2}
           color="#b09040"
           scale={0.92}
           position={[1, -0.02, 0]}
-          rotation={[Math.PI / 2, 0, Math.PI / 4]}
+          rotation={[Math.PI / 2, 0, Math.PI / 5]}
         />
         <AccumulativeShadows
           frames={100}
@@ -65,7 +65,7 @@ export const Experience = () => {
           autoRotate
           autoRotateSpeed={-0.075}
         />
-        <Environment preset="apartment" />
+        <Environment preset="apartment"  />
     </>
   );
 };
