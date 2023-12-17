@@ -2353,9 +2353,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"r3f-vite-starter@workspace:.":
+"r3f-ring-config@workspace:.":
   version: 0.0.0-use.local
-  resolution: "r3f-vite-starter@workspace:."
+  resolution: "r3f-ring-config@workspace:."
   dependencies:
     "@react-three/drei": 9.75.0
     "@react-three/fiber": ^8.13.3
