@@ -1,9 +1,5 @@
 # r3f-ring-config
 
-```
-yarn
-yarn dev
-```
+### Editable text on 3D object with React Three Fiber
 
-
-![image](https://user-images.githubusercontent.com/6551176/221732091-23ee52cb-4150-42fa-b998-43628d7a6b0d.png)
+### [Demo](https://r3f-ring-config-git-main-co851002.vercel.app/)
